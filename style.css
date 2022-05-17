@@ -1,0 +1,20 @@
+#container {
+  display: grid;
+  place-content: center;
+  margin: 4rem;
+  text-align: center;
+}
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+}
+iframe {
+  position: absolute;
+  margin: 30px;
+  left: 28%;
+}
+h1 {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+}
